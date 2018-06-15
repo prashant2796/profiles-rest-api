@@ -72,7 +72,7 @@ class UserProfile(AbstractBaseUser,PermissionsMixin):
         return self.email
 
 
-class ProfileFeedItems(models.Model):
+class ProfileFeedItem(models.Model):
     """
     Profile status update
     """
